@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css"><!--Importa o CSS-->
+	<title>Pagina Inicial</title>
+
+	<header>
+		<h1>Seja bem-vindo</h1>
+		<h3>Esse é o nosso site de cadastro</h3>
+	</header>
+
+</head>
+<body>
+	
+	<div><!--DIV do formulario-->
+		<form action="cadastro.php" method="POST"><!--Esse é o formulario que ira receber os dados do usuario-->
+			<p>INSIRA SEUS DADOS</p>
+			<label for="nome">Nome</label><br>
+			<input type="text" name="nome" required autofocus><!--Esse recebe o nome do usuario-->
+			<br>
+
+			<label for="sobrenome">Sobrenome</label><br>
+			<input for="text" name="sobrenome" required autofocus><!--Esse o sobrenome-->
+			<br>
+
+			<label for="idade">Idade</label><br>
+			<input for="idade" name="idade" required autofocus><!--Esse a idade-->
+			<br>
+
+			<label for="endereco">Endereço</label><br>
+			<input type="text" name="endereco" required autofocus><!--Esse o enderço-->
+			<br>
+		</form>
+	</div><!--Fim da div do formulario-->
+
+
+</body>
+</html>
