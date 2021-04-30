@@ -1,0 +1,15 @@
+div{
+    border-style: solid;
+	border-width: 1px;
+    padding: 20px;
+    width: 35% !important; 
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
